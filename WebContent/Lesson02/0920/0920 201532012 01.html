@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>이미지 태그</title>
+</head>
+<h3>해당화</h3>
+<!--상대 경로-->
+<img src="./img/flower2.jpg" title="꽃(원본)" />
+<img src="./img/flower2.jpg" width="300" height="212" title=""꽃(원본)" />
+<img src="./img/flower2.jpg" width="150" title="꽃(원본)" />
+<!-- 절대 경로 명확히 적어줘야함으로 파일이 옮겨지면 찾을 수 없음 -->
+<img src="C:\Users\6202-16\Documents\0920\img" title="꽃"/></br>
+
+<!-- 음악 삽입하기-->
+<video width="320" heignt="240" controls autoplay>
+<source src="./03-source/movie.mp4" type="video/mp4"></br>
+<source src="./03-source/movie.webm" type="video/webm"></br>
+<source src="./03-source/movie.ogg" type="video/ogg"></br>
+</video>
+
+<!-- 테이블 만들기(th는 자동 정렬 기능과 글자 굵기도 진하게 나온다.)-->
+<!-- align="center"를 table에도 사용가능 하다. 브라우저에서 위치가 가운데에 잡히게됨 -->
+<table align="center" border="1" bgcolor="gray" width="500">
+	<tr>
+    	<th>출발</th> <th>도착</th> <th>객실</th> <th>요금</th>
+     </tr>
+     <!--align 테그 이용해서 가운데 정렬가능-->
+     <tr>
+    	<td align="center">서울(17:25)</td> <td>부산(20:07)</td> <td>일반실</td> <td>50,800원</td>
+     </tr>
+      <!--tr에 쓰며 그 행에 있는 글 전부 align 테그 이용해서 가운데 정렬가능-->
+     <tr align="center">
+    	<td>서울(18:00)</td> <td>부산(20:35)</td> <td>특실</td> <td>83,700원</td>
+     </tr>
+     <tr>
+    	<td>서울(18:15)</td> <td>부산(20:50)</td> <td>일반실</td> <td>50,800원</td>
+     </tr>
+</table>
+,</br>
+
+<!--날씨 테이블 만들기 -->
+<h3>오늘의 날씨</h3>
+<table border="1">
+	<tr>
+    <!--rowspan(행합치기), colspan(열합치기) -->
+    	<th>지역</th> <th>현재기온</th> <th colspan="2">불쾌지수/습도(%)</th> <th>풍속(m/s)</th>
+     </tr>
+     <tr>
+    	<td rowspan="2">서울/경기</td> <td>23</td> <td>60</td> <td>80</td> <td>4.7</td>
+     </tr>
+     <tr >
+    	 <td>20</td> <td>60</td> <td>80</td> <td>5.0</td>
+     </tr>
+     <tr>
+    	<td >제주도</td> <td>21</td> <td>65</td> <td>85</td> <td>3.6</td>
+     </tr>
+</table>
+</br>
+<!--날씨 테이블 만들기 -->
+<h3>오늘의 날씨</h3>
+<table border="1">
+	<tr>
+    <!--rowspan(행합치기), colspan(열합치기) -->
+    	<th rowspan="2">지역</th> <th colspan="2">27일 목요일</th> <th colspan="2">28일 금요일</th> <th colspan="2">29일 토요일</th>
+     </tr>
+     <tr align="center">
+    	 <td>오전</td> <td>오후</td>  <td>오전</td> <td>오후</td> <td>오전</td> <td>오후</td> 
+     </tr>
+     <tr >
+    	 <td align="center">서울/경기도</td> <td ><img src="cloud.png"></td>  <td ><img src="cloud.png"></td> <td ><img src="cloud.png"></td> <td ><img src="rainy.png"></td> <td ><img src="rainy.png"></td> <td ><img src="rainy.png"></td>
+     </tr>
+     <tr>
+    	<td align="center" >제주도</td><td ><img src="cloud.png"></td>  <td ><img src="cloud.png"></td> <td ><img src="cloud.png"></td> <td ><img src="rainy.png"></td> <td ><img src="rainy.png"></td> <td ><img src="rainy.png"></td>
+     </tr>
+</table>
+
+<body>
+</body>
+</html>
