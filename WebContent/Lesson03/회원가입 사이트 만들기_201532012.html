@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>회원가입 사이트</title>
+</head>
+<body>
+<form>
+	<fieldset>
+    	이름 : <input id= "name" autocomplete="on" required="required" /><br>
+        아이디 : <input id= "id" autocomplete="on" required="required" />
+        <button type="button">아이디 중복확인</button><br>
+        암호 : <input id= "password" autocomplete="on" required="required" placeholder /><br>
+        암호 확인 : <input id= "passwordcheck" autocomplete="on" required="required" placeholder/><br>
+        주민번호 : <input id= "primarynumber" autocomplete="on" required="required" /><br>
+        연락처 :<select>
+        	<option value="010">010</option>
+            <option value="011">011</option>
+            <option value="012">012</option>
+        </select> 
+        <input type="text">- <input type="text"><br>
+        학력 <select>
+            <option>선택해주세요</option>
+        	<option value="highschool">고졸</option>
+            <option value="unversity">대졸</option>
+            </select><br>
+        메일링
+        <label>
+        <input type="radio" name="received" checked="checked" /> 받겠습니다.
+        </label>
+                <label>
+        <input type="radio" name="received" /> 받지않겠습니다.
+        </label><br>
+         약관동의
+         <label>
+         <input type="radio" name="agreed" checked="checked" /> 동의합니다.
+        </label><br>
+                                        
+    </fieldset>
+
+<button type="summit">가입하기</button>
+<button type="reset">다시쓰기</button>
+</form>
+</body>
+</html>
