@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<style>
+	p.select1{font-size:15pt; font-weight: bold;} //.select1이라고 재정의 하면 a태그에서도 사용가능
+	.select2{ font-size:20pt; font-style: italic;}
+    p{font-size: 14px}
+	a:link{color: green;}
+	a:visited{color: blue;}
+	a:hover{color: red; font-size:18px}
+	a:active{background: yellow}
+	a:focus{background: yellow; color: black; font-weight: bold}
+	a:focus:hover{background: blue; color: white}
+</style>
+<body>
+	<p class="select1"> CSS 클래스 선택자 연습</p>
+	<p class="select2"> CSS 클래스 선택자 연습</p>
+	<a class="select2">http://www.google.com</a> //a태그기 때문에 p태그로 정의한 select1를 쓸 수 없다.
+    <a class="outside" href="mySite.com">mySite 방문</a>
+    
+    <h3>CSS 가상(Pseudeo) 클래스 선택자 연습하기</h3>
+    <p>즐겨찾기 1</p>
+    <a href="http://www.etnews.com">전자신문</a>
+        <a href="http://www.hani.co.kr/">한겨레 신문</a>
+            <a href="http://www.khan.co.kr">경향신문</a>
+                <a href="http://www.ohmynews.com">오마이뉴스</a>
+                    <a href="http://www.youtube.com/?gl=KR&hl=ko">유튜브</a>
+</body>
+</html>
