@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<!---border에는 선의 모양 이나 색을 적는다.-->
+<!---:hover앞에 아무것도 적지 않으면 모든 것에 적용하겠다라는 의미이다.--->
+<style> 
+  p:target{ background: yellow; border: 1px dotted red;}
+  #sample1: target {background: blue; color: white;}
+  :hover{}
+  input[type="text"]: enabled {background: yellow; }
+  input[type="text"]: disabled {background: green; }
+  input:checked {background: red}
+</style>
+</head>
+<body>
+<!--링크를 거는 것이다. 이렇게 하게 되면 문서 내의 하이퍼링크로 적용된다-->
+<A href ="#sample1"> 새로운 콘텐츠1 </A>
+<a href ="#sample2"> 새로운 콘텐츠2 </a>
+
+<p> 위 링크를 클릭하면 아래 콘텐츠로 이동하면서
+스타일이 변경됩니다.</p>
+
+<!-- <b>태그는 진하게 보이게 하는 태그 이다.-->
+<p id="sample1"> <b> 새로운 컨텐츠1 .....</b></p>
+<p id="sample2"> <b> 새로운 컨텐츠2 .....</b></p>
+
+<form action="" method="get">
+이름 : <input tyoe="text" value="홍길동"/><br/>
+국가 : <input tyoe="text" value="한국" disabled /><br/>
+<input type ="radio" checked value = "male" name="gender" />남
+<input type ="radio" checked value = "male" name="gender" />여 <br />
+<input type ="checkbox" checked ="checked" name="Bike" />자전거 소유
+<input type ="checkbox" checked ="checked" name="Car" />자동차 소유
+</form>
+
+
+</body>
+</html>
