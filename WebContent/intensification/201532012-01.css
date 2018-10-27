@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+p:hover{
+	background-color:#9C0
+}
+
+tr:first-of-type{
+	background-color:#33FF66
+	}
+	tr:nth-of-type(-n+2){
+	background-color:#33FF66
+	}
