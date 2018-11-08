@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+.float-frame{
+	background:#eee;
+	border:1px solid #ddd;
+	padding: 10px;
+}
+.float-unit{
+	width: 50px;
+	background:#333;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding:15px 0;
+	float:left;
+}
+<!-- float를 해체하는 것-->
+.clear{ 
+	clear:both;
+	}
+</style>
+</head>
+<body>
+<!-- -->
+<div class="float-frame"> <!--텍스트가 입력이 되면 입력된 값 만큼 크기가 정해집니다.-->
+	<div class="float-unit">A</div>
+	<div class="float-unit">B</div>
+	<div class="float-unit">C</div>
+	<div class="float-unit">D</div>
+    <!--height 값을 측정하기 위해서 아무것도 없는 div룰 사용해서 높이값을 인식하게 한다.-->
+    <div class="clear"></div>
+        <!--wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow 
+    wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow -->
+</div>
+</body>
+</html>
