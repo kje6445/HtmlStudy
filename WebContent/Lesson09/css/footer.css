@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+footer{
+	height:100px;
+	margin-top:30px;
+	border-top:solid 1px #bbbbbb;}
+
+footer #footer_logo{
+	float:left;
+	margin:5px 0 0 210px;}
+
+footer #address{
+	float:left;
+	margin:20px 0 0 50px;}
+
+footer #foot_sns{
+	float:right;
+	margin:20px 10px 0 0;}
+
+footer #footer_sns li{
+	display:inline;}
