@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        h1 mark {
+        color:red;
+        }
+        #main div {
+        border:1px solid red;
+        }
+        h1 ~ pre {
+            font-size:16px;
+        }
+        .id ~ li {
+        font-style:italic;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">Div 요소의 아이디</div>
+    <p>선택자 연습1</p>
+    <div>아이디 #main 하위의 div 요소1</div>
+    <ul>
+        <li class="class">클래스 선택자</li>
+        <li class="id">아이디 선택자</li>
+        <li class="attribute">속성 선택자</li>
+        <li class="pclass>가상 클래스 선택자</li>
+        <li class="pelement">가상 요소 선택자</li>
+    </ul>
+    <table border="1">
+        <tr><td>2014</td><td>러시아 소치 동계올림픽</td></tr>
+        <tr><td>2018</td><td>대한민국 평창 동계올림픽</td></tr>
+    </table>
+    <div>
+        아이디 #main 하위의 div 요소2
+        <p>선택자 연습 3</p>
+        <p>선택자 연습 4</p>
+    </div>
+    <div><p>조합자는 CSS내의 단순한 선택자들을 조합하는 방식으로 지정한다.</p></div>
+</body>
+</html>

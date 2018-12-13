@@ -1,0 +1,19 @@
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:200px;
+	background-color: aquamarine;
+}
+
+li a{
+	display:block;
+	color:antiquewhite;
+	padding: 8px 0 8ox 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:burlywood;
+	color:white;
+}

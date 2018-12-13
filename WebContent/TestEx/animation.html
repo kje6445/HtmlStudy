@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>animation</title>
+<style>
+    #box {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        text-align: center;
+        /*background-color: darksalmon;*/ /*linear-gradient(top, #b6ff00 0%, #00ffff 100%); */
+        background: linear-gradient( #b6ff00 0%, #00ffff 100%);
+        animation-name: rint;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rint{
+        from{left: 0; transform:rotate(0deg);}
+        50%{left: 500px;}
+        to{left:500px; transform:rotate(360deg);}
+    }
+</style>
+</head>
+<body>
+    <div id="box"></div>
+</body>
+</html>
